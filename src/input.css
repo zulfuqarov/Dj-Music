@@ -1,0 +1,7 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url(../asset/style.css);
+.webkit-text-stroke {
+    -webkit-text-stroke: 0.8px white; /* Harf kenarındaki beyaz çizgiyi oluştur, isteğe bağlı kalınlığı ayarlayabilirsiniz */
+}
