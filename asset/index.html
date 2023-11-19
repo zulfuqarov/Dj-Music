@@ -11,16 +11,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link Swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 </head>
 
-<body class="bg-[#1C1B21] h-[500vh]">
+<body class="bg-[#1C1B21] h-[900vh]">
     <section>
         <!-- Header Start -->
         <header class="header-bg-fon">
             <nav class="container w-[70%] mx-auto pt-[20px] flex flex-row items-center justify-between">
                 <div class="flex flex-row  items-center">
-                    <img class="w-[60px] h-[60px] max-md:w-[40px] max-md:h-[40px]" src="img/logo.svg" alt="">
-                    <img class="w-[143px] ml-[15px]  h-[42px]" src="img/logo2.svg" alt="">
+                    <img class="w-[60px] h-[60px] max-md:w-[40px] max-md:h-[40px] max-[380px]:w-[30px]"
+                        src="img/logo.svg" alt="">
+                    <img class="w-[143px] ml-[15px]  h-[42px] max-[380px]:w-[100px]" src="img/logo2.svg" alt="">
                 </div>
                 <div class="text-white pl-[50px] font-semibold flex flex-row justify-between w-[70%] max-lg:hidden">
                     <a href="">About</a>
@@ -34,68 +38,412 @@
                     <i class="fa-solid fa-bars text-[24px] cursor-pointer"></i>
                 </div>
             </nav>
-            <section class="flex flex-col h-[70%] justify-center items-center">
+            <section class="flex flex-col h-[70%] max-md:h-[50%] justify-center items-center">
                 <div>
-                    <h6
-                        class="font-[700] text-[48px] max-lg:text-[36px] max-md:text-[24px] max-sm:text-[18px] text-white">
+                    <h6 class="font-[700] text-[48px] max-lg:text-[36px] max-md:text-[24px]  text-white">
                         New Single</h6>
                     <h1
-                        class="font-bold text-[100px] max-lg:text-[70px] max-md:text-[40px] max-sm:text-[30px] text-transparent webkit-text-stroke">
+                        class="font-bold text-[100px] max-lg:text-[70px] max-md:text-[40px]  text-transparent webkit-text-stroke">
                         War For Love</h1>
                 </div>
-                <div class="flex flex-row items-center w-[55%] justify-between">
-                    <dir><i class="fa-solid fa-play text-white text-[26px]"></i></dir>
+                <div
+                    class="flex flex-row max-md:pt-[70px] items-center w-[60%]  max-xl:w-[70%] max-[380px]:w-[90%] justify-between">
+                    <div><i class="fa-solid fa-play text-white text-[26px]"></i></div>
                     <div class="flex flex-row items-center">
-                        <div class="w-[87px] border-t-4 border-t-sky-700"></div>
+                        <div
+                            class="w-[87px] max-lg:w-[67px] max-md:w-[50px] max-[380px]:w-[37px] border-t-4 border-t-sky-700">
+                        </div>
                         <div class="border-r-4 h-[30px]  border-r-red-700"></div>
-                        <dir class="w-[500px]  border-t-4 border-t-white-700 "></dir>
+                        <div
+                            class="w-[500px] max-xl:w-[450px] max-lg:w-[300px] max-md:w-[180px] max-[380px]:w-[100px]  border-t-4 border-t-white-700 ">
+                        </div>
                     </div>
-                    <dir><span class="text-[20px] text-white font-semibold">00:22-02:54 </span></dir>
-                </div>
-            </section>
-            <section>
-                <div>
-                    <dir><img src="" alt=""></dir>
-                    <dir><span></span></dir>
-                </div>
-                <div>
-                    <dir><img src="" alt=""></dir>
-                    <dir><span></span></dir>
-                </div>
-                <div>
-                    <dir><img src="" alt=""></dir>
-                    <dir><span></span></dir>
+                    <div><span class="text-[20px] text-white font-semibold">00:22-02:54 </span></div>
                 </div>
             </section>
         </header>
         <!-- Header End -->
         <!-- --------- -->
         <!-- Section Cart Start -->
-        <section class="grid grid-cols-3 gap-4 container mx-auto mt-[-150px]">
+        <section class="grid grid-cols-3 max-md:grid-cols-1 gap-4 container mx-auto mt-[-150px]">
             <div class="relative group ">
-                <div><img class="mx-auto rounded-lg" src="img/cart1.svg" alt=""></div>
+                <div><img class="mx-auto rounded-lg max-sm:w-[280px]" src="img/cart1.svg" alt=""></div>
                 <div class="flex flex-row justify-center  w-full">
-                    <div class="absolute rounded-lg bg-[#7A66CC] opacity-[0.7] flex flex-row items-center justify-center  bottom-[0px] w-[350px] h-[0px] overflow-hidden group-hover:h-[90px] group-hover:overflow-visible transition-all"><span class="inline-block  text-center text-white text-[18px] font-semibold">Working on my upcoming full-lenth
-                        album that`s releasing later this year.</span></div>
+                    <div
+                        class="absolute rounded-lg bg-[#7A66CC] opacity-[0.7] flex flex-row items-center justify-center  bottom-[0px] w-[350px] max-xl:w-[330px]  max-lg:w-[245px] max-md:w-[350px] max-sm:w-[280px] h-[0px] overflow-hidden group-hover:h-[90px] group-hover:overflow-visible transition-all">
+                        <span class="inline-block  text-center text-white text-[18px] font-semibold">Working on my
+                            upcoming full-lenth
+                            album that`s releasing later this year.</span>
+                    </div>
                 </div>
             </div>
             <div class="relative group">
-                <div><img class="mx-auto rounded-lg" src="img/cart2.svg" alt=""></div>
+                <div><img class="mx-auto rounded-lg max-sm:w-[280px]" src="img/cart2.svg" alt=""></div>
                 <div class="flex flex-row justify-center  w-full">
-                    <div class="absolute rounded-lg bg-[#7A66CC] bottom-[0px] opacity-[0.7] flex flex-row items-center justify-center w-[350px]  h-[0px] overflow-hidden group-hover:h-[90px] group-hover:overflow-visible transition-all "><span class="inline-block  text-center text-white text-[18px] font-semibold">Halloween vibes. 
-                        Listen my new track!</span></div>
+                    <div
+                        class="absolute rounded-lg bg-[#7A66CC] bottom-[0px] opacity-[0.7] flex flex-row items-center justify-center w-[350px] max-xl:w-[330px]  max-lg:w-[245px] max-md:w-[350px] max-sm:w-[280px] h-[0px] overflow-hidden group-hover:h-[90px] group-hover:overflow-visible transition-all ">
+                        <span class="inline-block  text-center text-white text-[18px] font-semibold">Halloween vibes.
+                            Listen my new track!</span>
+                    </div>
                 </div>
             </div>
             <div class="relative group">
-                <div><img class="mx-auto rounded-lg" src="img/cart3.svg" alt=""></div>
+                <div><img class="mx-auto rounded-lg max-sm:w-[280px]" src="img/cart3.svg" alt=""></div>
                 <div class="flex flex-row justify-center  w-full">
-                    <div class="absolute rounded-lg bg-[#7A66CC]  bottom-[0px] opacity-[0.7] flex flex-row items-center justify-center w-[350px]  h-[0px] overflow-hidden group-hover:h-[90px] group-hover:overflow-visible transition-all"><span class="inline-block  text-center text-white text-[18px] font-semibold">WarForLove is OUT NOW!! 
-                        Stream it here!</span></div>
+                    <div
+                        class="absolute rounded-lg bg-[#7A66CC]  bottom-[0px] opacity-[0.7] flex flex-row items-center justify-center w-[350px] max-xl:w-[330px]  max-lg:w-[245px] max-md:w-[350px] max-sm:w-[280px] h-[0px] overflow-hidden group-hover:h-[90px] group-hover:overflow-visible transition-all">
+                        <span class="inline-block  text-center text-white text-[18px] font-semibold">WarForLove is OUT
+                            NOW!!
+                            Stream it here!</span>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- Section Cart End -->
+        <!-- --------- -->
+        <section class="container mx-auto">
+            <!-- sections div Bright light start -->
+            <div class="flex flex-row max-[1200px]:flex-col max-[1200px]:pb-[500px] space-x-10 pt-[80px]">
+                <div class="basis-3/6 ">
+                    <div class="flex flex-row max-md:justify-center"><img src="img/ritim.svg" alt="">
+                        <h3 class="pl-[30px] text-white text-[48px] font-bold max-sm:text-[34px]">Bright Lights</h3>
+                    </div>
+                    <div class="pt-[40px] max-sm:px-[20px]">
+                        <p class="pb-[30px] text-[18px]  text-white max-md:text-center">Bright Lights is a multi-Grammy
+                            nominated singer,
+                            songwriter, DJ and record producer. She has
+                            written for numerous</p>
+                        <p class="text-white text-[18px] leading-[30px] max-md:text-center">
+                            pop stars including Britney Spears, Justin Bieber, Usher and Beyoncé. Her catalog has
+                            amassed over 1 billion streams worldwide. More than 100 million of those streams can be
+                            attributed to her artist career and include such hits as Porter Robinson's "Language,"
+                            3LAU's "How You Love Me" and her own single "Runaway." She was also a featured vocalist on
+                            Zedd's #1 Clarity album. Her latest music video, "Put It Down," reached 1 million streams in
+                            the first week, releasing independently. Bright Lights is currently in the studio working on
+                            a self-produced album slated for release in 2020. </p>
+                    </div>
+                    <div class="pt-[40px] max-sm:px-[20px]">
+                        <div class="flex flex-row max-md:justify-center">
+                            <div class="pr-[40px]"><img class="inline-block pr-[20px]" src="img/purpleIcons.svg" alt="">
+                                <span class="text-white text-[18px]">Based in: Los Angeles</span>
+                            </div>
+                            <div><img class="inline-block pr-[20px]" src="img/purpleIcons.svg" alt=""> <span
+                                    class="text-white text-[18px]">Founded in 2011
+                                </span></div>
+                        </div>
+                        <div class="flex flex-row pt-[30px] max-md:justify-center">
+                            <div class="pr-[40px]"><img class="inline-block pr-[44px]" src="img/purpleIcons.svg"
+                                    alt=""><span class="text-white text-[18px]">Genre: #DancePop
+                                </span></div>
+                            <div><img class="inline-block pr-[20px]" src="img/purpleIcons.svg" alt=""><span
+                                    class="text-white text-[18px]">Label: 333 Recordings</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="basis-3/6 h-[500px] relative pt-[50px] flex flex-row  justify-center">
+                    <img class="absolute z-10 left-[80px] max-sm:w-[250px] max-[380px]:w-[200px] max-[380px]:left-[30px]"
+                        src="img/introImg1.svg" alt="">
+                    <img class="absolute top-[90px] max-[1280px]:left-[180px] max-[648px]:left-[0px] max-sm:w-[250px] max-[380px]:w-[200px]"
+                        src="img/introImg2.svg" alt="">
+                </div>
+            </div>
+            <!-- section div Bright light end -->
+            <!-- ------------ -->
+            <!-- PopuLove div start -->
+            <div
+                class="flex flex-row max-lg:flex-col max-md:items-center space-x-10 py-[70px] my-[100px] relative rounded-lg px-[50px] border-inherit border	">
+                <div class="basis-3/6 pb-[60px] border-b border-b-white-500">
+                    <p class="pb-[40px] text-white text-[18px] w-[470px] max-lg:w-[100%]">“In an age where mainstream
+                        music is designed to be as
+                        easily consumed as possible, listening to Bright Lights is
+                        refreshing, to say the least. Her sound is perfect for radio
+                        but complex enough to separate her from other pop newcomers.”</p>
+
+                    <a href="#" class="text-[#7A66CC] text-[22px] 
+
+                    ">PopULove.net</a>
+                </div>
+                <div
+                    class="basis-3/6 flex absolute max-lg:static max-lg:pt-[40px] right-0 top-[-60px] flex-row justify-center">
+                    <img class="mr-[50px]" src="img/PopuLove.svg" alt="">
+                </div>
+            </div>
+            <!-- PopuLove div end -->
+            <!-- -------- -->
+            <!-- Last Track start -->
+            <div class="flex flex-row space-x-10 max-lg:flex-col max-lg:space-x-0 max-lg:items-center">
+                <div class="basis-3/6">
+
+                    <div class="border-[10px] w-[456px] max-sm:w-[326px] max-[380px]:w-[296px] rounded-full border-white-500/100
+
+                    ">
+                        <div class="border-[10px] w-[436px] max-sm:w-[300px] max-[380px]:w-[276px] rounded-full border-indigo-500/100
+
+                    ">
+                            <img src="img/lasttrack.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="basis-3/6 max-lg:pt-[80px]">
+                    <div class="flex flex-row items-center  max-md:justify-center">
+                        <div>
+                            <img src="img/ritim.svg" alt="">
+                        </div>
+                        <div>
+                            <h3 class="pl-[30px] text-white text-[48px] font-bold max-sm:text-[38px]">Last tracks</h3>
+                        </div>
+                    </div>
+                    <div class="py-[40px]">
+                        <div
+                            class="flex flex-row items-center max-sm:justify-between max-sm:w-[380px] max-[380px]:w-[300px]  max-[380px]:pb-[15px] px-[10px]">
+                            <span
+                                class="inline-block pr-[15px] max-sm:pr-[0] text-[18px] max-[380px]:text-[16px] text-slate-500 py-[10px] ">01</span>
+                            <p
+                                class=" text-[20px] max-sm:w-[300px] max-[380px]:w-[240px] max-[380px]:text-[17px] font-semibold text-[#7A66CC]">
+                                Zeds Dead,
+                                Dirtyphonics, Bright Lights
+                                — Where Are You Now</p>
+                        </div>
+                        <div
+                            class="flex flex-row items-center max-sm:justify-between max-sm:w-[380px] max-[380px]:w-[300px]  max-[380px]:pb-[15px] px-[10px]">
+                            <span
+                                class="inline-block pr-[15px] max-sm:pr-[0] text-[18px] max-[380px]:text-[16px] text-slate-500 py-[10px] ">02</span>
+                            <p
+                                class="text-[20px] max-sm:w-[300px] max-[380px]:w-[240px] font-semibold max-[380px]:text-[17px] text-white">
+                                Zedd, Bright Lights —
+                                Follow You Down
+                            </p>
+                        </div>
+                        <div
+                            class="flex flex-row items-center max-sm:justify-between max-sm:w-[380px] max-[380px]:w-[300px]  max-[380px]:pb-[15px] px-[10px]">
+                            <span
+                                class="inline-block pr-[15px] max-sm:pr-[0] text-[18px] max-[380px]:text-[16px] text-slate-500 py-[10px] ">03</span>
+                            <p
+                                class="text-[20px] max-sm:w-[300px] max-[380px]:w-[240px] font-semibold max-[380px]:text-[17px] text-white">
+                                3LAU, Bright Lights — How
+                                You Love Me</p>
+                        </div>
+                        <div
+                            class="flex flex-row items-center max-sm:justify-between max-sm:w-[380px] max-[380px]:w-[300px]  max-[380px]:pb-[15px] px-[10px]">
+                            <span
+                                class="inline-block pr-[15px] max-sm:pr-[0] text-[18px] max-[380px]:text-[16px] text-slate-500 py-[10px] ">04</span>
+                            <p
+                                class="text-[20px]  max-sm:w-[300px] max-[380px]:w-[240px] font-semibold max-[380px]:text-[17px] text-white">
+                                Bright Lights, Kaleena
+                                Zanders, Kandy — War
+                                For Love
+                            </p>
+                        </div>
+                        <div
+                            class="flex flex-row items-center max-sm:justify-between max-sm:w-[380px] max-[380px]:w-[300px]  max-[380px]:pb-[15px] px-[10px]">
+                            <span
+                                class="inline-block pr-[15px] max-sm:pr-[0] text-[18px] max-[380px]:text-[17px] text-slate-500 py-[10px] ">05</span>
+                            <p
+                                class="text-[20px] max-sm:w-[300px] max-[380px]:w-[240px] font-semibold max-[380px]:text-[17px] text-white">
+                                Pink Is Punk, Benny
+                                Benassi, Bright Lights —
+                                Ghost</p>
+                        </div>
+                        <div
+                            class="flex flex-row items-center max-sm:justify-between max-sm:w-[380px]  max-[380px]:w-[300px] max-[380px]:pb-[15px] px-[10px]">
+                            <span
+                                class="inline-block pr-[15px]  max-sm:pr-[0] max-[380px]:text-[16px] text-[18px] text-slate-500 py-[10px] ">06</span>
+                            <p
+                                class="text-[20px] max-sm:w-[300px] max-[380px]:w-[240px] font-semibold max-[380px]:text-[17px] text-white">
+                                Hardwell, Dyro, Bright
+                                Lights — Never Say
+                                Goodbye</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-row  justify-between items-center w-[400px] max-sm:w-[100%] max-sm:flex-col">
+                        <div>
+                            <h3 class="text-[22px] max-sm:text-[20px] text-white font-bold">Follow me:</h3>
+                        </div>
+                        <div class="max-sm:pt-[20px] flex flex-row items-center">
+                            <img class="pr-[10px]" src="img/spotfy.svg" alt="">
+                            <p class="text-[18px] text-white">Spotify</p>
+                        </div>
+                        <div class="max-sm:pt-[20px] flex flex-row items-center">
+                            <img class="pr-[10px]" src="img/iphone.svg" alt="">
+                            <p class="text-[18px] text-white">Iphone</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Last Track end -->
+            <!-- ----------------------- -->
+            <!-- img Grid start -->
+            <div class="flex flex-row space-x-3 pt-[150px]">
+                <div class=" basis-1/4">
+                    <img class="w-full" src="img/gridImg1.svg" alt="">
+                </div>
+                <div class=" basis-1/2 flex flex-col ">
+                    <div class="flex flex-row space-x-3 basis-1/2">
+                        <div class="basis-1/2"><img class="w-full h-full" src="img/gridImg2.svg" alt=""></div>
+                        <div class="basis-1/2"><img class="w-full h-full" src="img/gridImg3.svg" alt=""></div>
+                    </div>
+                    <div class="basis-1/2"><img class="w-full h-full" src="img/gridImg4.svg" alt=""></div>
+                </div>
+                <div class=" basis-1/4"><img class="w-full " src="img/gridImg5.svg" alt=""></div>
+            </div>
+            <!-- img Grid end -->
+            <!-- ---------------- -->
+            <!-- Swiper start -->
+            <div class="pt-[150px]">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper !mb-[50px]">
+                        <div class="swiper-slide ">
+                            <img class="mx-auto" src="img/SwiperImg1.svg" alt="">
+                            <div class="flex flex-row justify-center">
+                                <div class="pt-[30px] pl-[20px] w-[350px] h-[200px] bg-[#333333] relative">
+                                    <div><span class="text-[#757575] text-[18px]">Chandler, AZ</span></div>
+                                    <div class="pt-[25px] text-white text-[16px]">
+                                        <p>The Park at Wild Horse Pass</p>
+                                    </div>
+                                    <div class="flex flex-row absolute bottom-0 right-0">
+                                        <button class="pr-[10px] text-white">Apr 02 2021</button>
+                                        <button
+                                            class="bg-[#7A66CC] rounded-lg  text-white text-center w-[180px] h-[60px] font-semibold text-[18px] hover:bg-white hover:text-black transition-all">tickets</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide  "><img class="mx-auto" src="img/SwiperImg2.svg" alt="">
+                            <div class="flex flex-row justify-center">
+                                <div class="pt-[30px] pl-[20px] w-[350px] h-[200px] bg-[#333333] relative">
+                                    <div><span class="text-[#757575] text-[18px]">Ibiza, IBZ</span></div>
+                                    <div class="pt-[25px] text-white text-[16px]">
+                                        <p>The Park at Wild Horse Pass</p>
+                                    </div>
+                                    <div class="flex flex-row absolute bottom-0 right-0">
+                                        <button class="pr-[10px] text-white">Jul 08 2021</button>
+                                        <button
+                                            class="bg-[#7A66CC] rounded-lg  text-white text-center w-[180px] h-[60px] font-semibold text-[18px] hover:bg-white hover:text-black transition-all">tickets</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide "><img class="mx-auto" src="img/SwiperImg3.svg" alt="">
+                            <div class="flex flex-row justify-center">
+                                <div class="pt-[30px] pl-[20px] w-[350px] h-[200px] bg-[#333333] relative">
+                                    <div><span class="text-[#757575] text-[18px]">Chandler, AZ</span></div>
+                                    <div class="pt-[25px] text-white text-[16px]">
+                                        <p>The Park at Wild Horse Pass</p>
+                                    </div>
+                                    <div class="flex flex-row absolute bottom-0 right-0">
+                                        <button class="pr-[10px] text-white">Apr 02 2021</button>
+                                        <button
+                                            class="bg-[#7A66CC] rounded-lg  text-white text-center w-[180px] h-[60px] font-semibold text-[18px] hover:bg-white hover:text-black transition-all">tickets</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide "><img class="mx-auto" src="img/SwiperImg4.svg" alt="">
+                            <div class="flex flex-row justify-center">
+                                <div class="pt-[30px] pl-[20px] w-[350px] h-[200px] bg-[#333333] relative">
+                                    <div><span class="text-[#757575] text-[18px]">Chandler, AZ</span></div>
+                                    <div class="pt-[25px] text-white text-[16px]">
+                                        <p>The Park at Wild Horse Pass</p>
+                                    </div>
+                                    <div class="flex flex-row absolute bottom-0 right-0">
+                                        <button class="pr-[10px] text-white">Apr 02 2021</button>
+                                        <button
+                                            class="bg-[#7A66CC] rounded-lg  text-white text-center w-[180px] h-[60px] font-semibold text-[18px] hover:bg-white hover:text-black transition-all">tickets</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide "><img class="mx-auto" src="img/SwiperImg1.svg" alt="">
+                            <div class="flex flex-row justify-center">
+                                <div class="pt-[30px] pl-[20px] w-[350px] h-[200px] bg-[#333333] relative">
+                                    <div><span class="text-[#757575] text-[18px]">Chandler, AZ</span></div>
+                                    <div class="pt-[25px] text-white text-[16px]">
+                                        <p>The Park at Wild Horse Pass</p>
+                                    </div>
+                                    <div class="flex flex-row absolute bottom-0 right-0">
+                                        <button class="pr-[10px] text-white">Apr 02 2021</button>
+                                        <button
+                                            class="bg-[#7A66CC] rounded-lg  text-white text-center w-[180px] h-[60px] font-semibold text-[18px] hover:bg-white hover:text-black transition-all">tickets</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <!-- Swiper end -->
+            <!-- footer start -->
+            <footer class="flex flex-col items-center w-full pt-[150px]">
+                <div class="flex flex-row  items-center">
+                    <img class="w-[60px] h-[60px] max-md:w-[40px] max-md:h-[40px]" src="img/logo.svg" alt="">
+                    <img class="w-[143px] ml-[15px]  h-[42px]" src="img/logo2.svg" alt="">
+                </div>
+                <div class="flex flex-row max-[380px]:flex-col pt-[50px]">
+                    <div>
+                        <p class="text-white text-[18px] max-[380px]:text-[16px] font-semibold">Artist Management:</p>
+                        <p
+                            class="text-white text-[18px] max-[380px]:text-[16px] font-semibold pt-[10px] max-[380px]:text-left text-right">
+                            EMAIL:</p>
+                    </div>
+                    <div class="pl-[30px] max-[380px]:pl-[0px]">
+                        <p class="text-white text-[18px] max-[380px]:text-[16px] font-semibold">Jake Henny</p>
+                        <p class="text-white text-[18px] max-[380px]:text-[16px] font-semibold pt-[10px]">
+                            jake@brightlightsofficial.com</p>
+                    </div>
+                </div>
+                <div class="flex flex-row max-sm:flex-col justify-between items-center w-[400px] max-sm:w-[100%] pt-[50px]">
+                    <div class="flex flex-row">
+                        <img class="" src="img/FotterIcon1.svg " alt="">
+                        <img class="" src="img/FotterIcon2.svg" alt="">
+                        <img class="" src="img/FotterIcon3.svg" alt="">
+                    </div>
+                    <div class="flex flex-row">
+                        <img class="" src="img/FotterIcon4.svg" alt="">
+                        <img class="" src="img/FotterIcon5.svg" alt="">
+                        <img class="" src="img/FotterIcon6.svg" alt="">
+                    </div>
+                </div>
+            </footer>
+            <!-- footer end -->
+
+        </section>
+
     </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 0,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 30,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 50,
+                },
+            },
+        });
+    </script>
 </body>
 
 </html>
